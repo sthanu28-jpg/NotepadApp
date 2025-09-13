@@ -1,6 +1,6 @@
 # Simple Notepad App
 
-A feature-rich Java based Notepad application that allows users to create, edit, and manage text files with additional styling and customization options.
+A  Java based Notepad application that allows users to create, edit, and manage text files with additional styling and customization options.
 
 ---
 
@@ -79,6 +79,7 @@ This project demonstrates:
 -  Thanu
 -  ID: 028
 -  GitHub: @sthanu28-jpg
+
 
 
 
