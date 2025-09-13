@@ -31,17 +31,28 @@ NotepadApp/
 ├── README.md                # Project documentation
 
 
-## Compile & Run
-Using Terminal:
+##  Setup Instructions
+
+- **Java Version**: Java 8 or later  
+- This application does **not use a database**; no setup is required for database or persistence beyond saving files to the file system.
+
+### Compile & Run
+
+in bash :
 
 - javac NotepadAssignment.java
 - java NotepadAssignment
 
-or Using IDE:
 
-- Open the project folder
-- Open NotepadAssignment.java
-- Right-click → Run the main() method
+---
+## Assumptions & Special Notes
+
+- All file operations are with plain text; text styling (bold/italic/etc.) is for display only, and saved files are plain .txt.
+- Only single-document editing is supported (no tabs or multiple open files at once).
+- Undo/redo is not implemented.
+- Font/color changes apply to all text; individual persistence (e.g. styled saving/loading) is not supported.
+
+---
 
 ## Learning Highlights
 This project demonstrates:
@@ -53,16 +64,21 @@ This project demonstrates:
 - Implementing Dark Mode using color switching
 - Handling unsaved changes with custom logic
 
+---
+
 ## Known Limitations
 
 - Does not support rich-text saving (only plain text)
 - No multi-tab or multi-document interface
 - No undo/redo functionality
 
-Author
+---
+
+## Author
 
 -  Thanu
 -  ID: 028
 -  GitHub: @sthanu28-jpg
+
 
 
